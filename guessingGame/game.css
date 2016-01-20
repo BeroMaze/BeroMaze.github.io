@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+#mTitle {
+  color: rgb(70, 45, 250);
+  border-bottom: dotted;
+  width: 360px;
+  position: relative;
+  left: 37%;
+}
+#dis {
+  color: rgb(90, 75, 250);
+}
+#gameQ {
+  color: rgb(50, 180, 250);
+  border: dotted;
+  background-color: rgba(70, 45, 250, .50);
+  width: 180px;
+  position: relative;
+  left: 43%;
+}
+#questions {
+  position: relative;
+  top: -70px;
+}
+.resultsB {
+  border: solid;
+  width: 270px;
+  color: rgb(0, 250, 25);
+  position: relative;
+  /*left: 50%;
+  top: -50px;*/
+}
+
+.questionsText {
+  color: rgb(50, 180, 250);
+
+}
+.answerText {
+  color: yellow;
+}
+.button {
+  background-color: red;
+  color: white;
+  height: 35px;
+  width: 70px;
+  font-size: 15px;
+}
+.answerFace {
+  position: relative;
+  left: 5%;
+  vertical-align: middle;
+}
