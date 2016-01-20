@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>)'( Whalephants )'(</title>
   <link rel="stylesheet" type="text/css" href="../structure/homePage.css">
   <link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="about.css">
 </head>
       <body>
-      <header>
-      <img src="../structure/homeImages/logo.jpg" id = 'logo'>
+      <header class='width'>
       <h1>Whalephants</h1>
       </header>
-      <section>
-            <aside>
+
+      <section class='width'>
+          <div id='bar'>
+              <img src="../structure/homeImages/logo.jpg" id = 'logo' class='fade'>
+              <aside>
                 <ul>
                   <li class= 'nav' id ='home'>Home</li>
                   <li class= 'nav' id = 'aboutUs'>About</li>
                   <li class= 'nav' id ='vote'>Vote</li>
                   <li class= 'nav' id = 'countDown'>Count Down</li>
-                  <li class= 'nav' id ='contactUs'>Contact Us</ul>
+                  <li class= 'nav' id ='contactUs'>Contact Us</li>
                   <li class= 'nav' id ='game'>Hang Man</li>
-
-            </aside>
+                  <li class= 'nav' id ='thankYou'>Thank You</li>
+                </ul>
+              </aside>
+          </div>
             <article>
                 <h3 id ='title'><u>About Whalephants</u></h3>
-                <p3>Whalephants is a camp that has come together to be at home for over 5 years.
-                    This group comes from all over from the east coast and west.</p3>
 
+                <div id ='cornerTime'class ='InnerSec'>
+                    <p3>Whalephants (Whale + Elephant) has been a Burning Man camp since 2010, focusing on crafting games and delicious cocktails that keep our fellow Burners happy. Posted at the corner of <b>9:15 and J</b>, you might find us in the morning reminiscing about the night before, relaxing, and inevitably inviting you in to join us for getting the new day moving. We like soaking in all Burning Man has to offer and encouraging others to do the same.</p3>
+                    <img class ='sideImg' id='campTent' src="../homePage/homePageImages/campTent.jpg">
+                </div>
+                <div id='drinkTime' class ='InnerSec'>
+                    <p3>Every day a different camp mate is in charge of concocting a drink that will be later served on the corner. You as a reader can partake in this daily event in different ways. Pre-burn you can head over to the <a href="../votePage/vote.html"><u>Voting page</u></a> to help decide what drinks are going to be made for this year’s event. The second way you can help make this great is to come by each day to the corner of <b>9:15 and J</b> to enjoy the efforts of your voting!</p3><br/>
+                    <img class ='sideImg' id='drink' src="./aboutImages/drink.jpg">
+                </div>
 
-
-
+                <div id ='moopTime' class ='InnerSec'>
+                    <p3>We also have a couple core games Whalephant Burners like to play, and we know you will enjoy them too. Think you have photo skills? Take to our annual photo contest. We supply the props (. . .we recommend the homemade ray guns), you supply the action. The crazy-coolest pictures get the victory - and more drinks.
+                    <br></br>
+                    The second game doubles as the Burning Man conservation effort. With so many people, there is always bound to be stray matter. Matter Out Of Place (AKA Moop) is a big deal, and being responsible Burners means taking care of the Moop. That is why we have our own <a target="_blank" href='http://burningman.org/event/preparation/leaving-no-trace/'><u>Moop</u></a>scavenger hunt!
+                    <br></br>
+                    The goal is simple: Find the Moop and collect it; ever piece is fair game. Every morning we go over what was discovered and who discovered it. You can also go for the category wins, some of which include: Biggest Piece of Moop, Shiniest Piece of Moop, Smallest Piece of Moop, and the Craziest Piece of Moop.<br/>
+                    <img src="./aboutImages/moop.jpg" id='moopImg'>
+                </p3>
+                </div>
 
             </article>
       </section>
-      <footer>
+      <footer class='width'>
           <div id='footerBar'>
               <div class ='footerNav'>
                 <ul class = 'bottomList'>
@@ -67,5 +86,6 @@
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js'></script>
 <script src="../structure/homepage.js"></script>
+<script src="./about.js"></script>
 </body>
 </html>

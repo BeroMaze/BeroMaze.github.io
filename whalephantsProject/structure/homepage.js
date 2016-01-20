@@ -3,14 +3,14 @@ $('#home').on('click', function(){
   window.open('../homePage/index.html', '_self');
 });
 $('#home').mouseover(function(){
-    $("#home").css('font-size', '1.3em');
-    $("#home").css('width', '100px');
-    $('#home').css('height', '30px');
+    $("#home").css('font-size', '1.03em');
+    $("#home").css('box-shadow', '3px 3px 10px rgb(255, 230, 163)');
+    $('#home').css('color', 'rgb(255, 230, 163)');
   });
 $('#home').mouseout(function(){
   $("#home").css('font-size', '1em');
-    $("#home").css('width', '90px');
-    $('#home').css('height', '25px');
+    $("#home").css('box-shadow', '2px 2px 10px #888888');
+    $('#home').css('color', 'white');
 });
 
 // About button effects and likes
@@ -18,14 +18,14 @@ $('#aboutUs').on('click', function(){
   window.open('../aboutPage/about.html', '_self');
 });
 $('#aboutUs').mouseover(function(){
-    $("#aboutUs").css('font-size', '1.3em');
-    $("#aboutUs").css('width', '100px');
-    $('#aboutUs').css('height', '30px');
+    $("#aboutUs").css('font-size', '1.03em');
+    $("#aboutUs").css('box-shadow', '3px 3px 10px rgb(255, 230, 163)');
+    $('#aboutUs').css('color', 'rgb(255, 230, 163)');
   });
 $('#aboutUs').mouseout(function(){
   $("#aboutUs").css('font-size', '1em');
-    $("#aboutUs").css('width', '90px');
-    $('#aboutUs').css('height', '25px');
+    $("#aboutUs").css('box-shadow', '2px 2px 10px #888888');
+    $('#aboutUs').css('color', 'white');
 });
 
 // Vote button effects and Links
@@ -33,28 +33,28 @@ $('#vote').on('click', function(){
   window.open('../votePage/vote.html', '_self');
 });
 $('#vote').mouseover(function(){
-    $("#vote").css('font-size', '1.3em');
-    $("#vote").css('width', '100px');
-    $('#vote').css('height', '30px');
+    $("#vote").css('font-size', '1.03em');
+    $("#vote").css('box-shadow', '3px 3px 10px rgb(255, 230, 163)');
+    $('#vote').css('color', 'rgb(255, 230, 163)');
   });
 $('#vote').mouseout(function(){
   $("#vote").css('font-size', '1em');
-    $("#vote").css('width', '90px');
-    $('#vote').css('height', '25px');
+    $("#vote").css('box-shadow', '2px 2px 10px #888888');
+    $('#vote').css('color', 'white');
 });
 // Count Down effects and links
 $('#countDown').on('click', function(){
   window.open('../countDownPage/countDown.html', '_self');
 });
 $('#countDown').mouseover(function(){
-    $("#countDown").css('font-size', '1.2em');
-    $("#countDown").css('width', '100px');
-    $('#countDown').css('height', '30px');
+    $("#countDown").css('font-size', '1.03em');
+    $("#countDown").css('box-shadow', '3px 3px 10px rgb(255, 230, 163)');
+    $('#countDown').css('color', 'rgb(255, 230, 163)');
   });
 $('#countDown').mouseout(function(){
   $("#countDown").css('font-size', '1em');
-    $("#countDown").css('width', '90px');
-    $('#countDown').css('height', '25px');
+    $("#countDown").css('box-shadow', '2px 2px 10px #888888');
+    $('#countDown').css('color', 'white');
 });
 
 // Contact Us effects and links
@@ -62,29 +62,45 @@ $('#contactUs').on('click', function(){
   window.open('../contactPage/contactUs.html', '_self');
 });
 $('#contactUs').mouseover(function(){
-    $("#contactUs").css('font-size', '1.3em');
-    $("#contactUs").css('width', '100px');
-    $('#contactUs').css('height', '30px');
+    $("#contactUs").css('font-size', '1.03em');
+    $("#contactUs").css('box-shadow', '3px 3px 10px rgb(255, 230, 163)');
+    $('#contactUs').css('color', 'rgb(255, 230, 163)');
   });
 $('#contactUs').mouseout(function(){
   $("#contactUs").css('font-size', '1em');
-    $("#contactUs").css('width', '90px');
-    $('#contactUs').css('height', '25px');
+    $("#contactUs").css('box-shadow', '2px 2px 10px #888888');
+    $('#contactUs').css('color', 'white');
 });
 
 // Game effects and links
 $('#game').on('click', function(){
   window.open('../gamePage/game.html', '_self');
 });
+
 $('#game').mouseover(function(){
-    $("#game").css('font-size', '1.3em');
-    $("#game").css('width', '100px');
-    $('#game').css('height', '30px');
+    $("#game").css('font-size', '1.03em');
+    $("#game").css('box-shadow', '3px 3px 10px rgb(255, 230, 163)');
+    $('#game').css('color', 'rgb(255, 230, 163)');
   });
 $('#game').mouseout(function(){
   $("#game").css('font-size', '1em');
-    $("#game").css('width', '90px');
-    $('#game').css('height', '25px');
+    $("#game").css('box-shadow', '2px 2px 10px #888888');
+    $('#game').css('color', 'white');
+});
+
+// Thanks button effects and links
+$('#thankYou').on('click', function(){
+  window.open('../thanksPage/thanks.html', '_self');
+});
+$('#thankYou').mouseover(function(){
+    $("#thankYou").css('font-size', '1.03em');
+    $("#thankYou").css('box-shadow', '3px 3px 10px rgb(255, 230, 163)');
+    $('#thankYou').css('color', 'rgb(255, 230, 163)');
+  });
+$('#thankYou').mouseout(function(){
+  $("#thankYou").css('font-size', '1em');
+    $("#thankYou").css('box-shadow', '2px 2px 10px #888888');
+    $('#thankYou').css('color', 'white');
 });
 
 // homefooter effects and links
@@ -92,11 +108,11 @@ $('#homeFooter').on('click', function(){
   window.open('../homePage/index.html', '_self');
 });
 $('#homeFooter').mouseover(function(){
-    $("#homeFooter").css('font-size', '1.05em');
+    $("#homeFooter").css('color', 'rgb(255, 230, 163)');
     $('#homeFooter').css('text-decoration', 'underline');
   });
 $('#homeFooter').mouseout(function(){
-  $("#homeFooter").css('font-size', '1em');
+  $("#homeFooter").css('color', 'white');
   $('#homeFooter').css('text-decoration', 'none');
 });
 
@@ -105,11 +121,11 @@ $('#aboutUsFooter').on('click', function(){
   window.open('../aboutPage/about.html', '_self');
 });
 $('#aboutUsFooter').mouseover(function(){
-    $("#aboutUsFooter").css('font-size', '1.05em');
+    $("#aboutUsFooter").css('color', 'rgb(255, 230, 163)');
     $('#aboutUsFooter').css('text-decoration', 'underline');
   });
 $('#aboutUsFooter').mouseout(function(){
-  $("#aboutUsFooter").css('font-size', '1em');
+  $("#aboutUsFooter").css('color', 'white');
   $('#aboutUsFooter').css('text-decoration', 'none');
 });
 
@@ -118,11 +134,11 @@ $('#voteFooter').on('click', function(){
   window.open('../votePage/vote.html', '_self');
 });
 $('#voteFooter').mouseover(function(){
-    $("#voteFooter").css('font-size', '1.05em');
+    $("#voteFooter").css('color', 'rgb(255, 230, 163)');
     $('#voteFooter').css('text-decoration', 'underline');
   });
 $('#voteFooter').mouseout(function(){
-  $("#voteFooter").css('font-size', '1em');
+  $("#voteFooter").css('color', 'white');
   $('#voteFooter').css('text-decoration', 'none');
 });
 
@@ -131,11 +147,11 @@ $('#countDownFooter').on('click', function(){
   window.open('../countDownPage/countDown.html', '_self');
 });
 $('#countDownFooter').mouseover(function(){
-    $("#countDownFooter").css('font-size', '1.05em');
+    $("#countDownFooter").css('color', 'rgb(255, 230, 163)');
     $('#countDownFooter').css('text-decoration', 'underline');
   });
 $('#countDownFooter').mouseout(function(){
-  $("#countDownFooter").css('font-size', '1em');
+  $("#countDownFooter").css('color', 'white');
   $('#countDownFooter').css('text-decoration', 'none');
 });
 
@@ -144,11 +160,11 @@ $('#contactUsFooter').on('click', function(){
   window.open('../contactPage/contactUs.html', '_self');
 });
 $('#contactUsFooter').mouseover(function(){
-    $("#contactUsFooter").css('font-size', '1.05em');
+    $("#contactUsFooter").css('color', 'rgb(255, 230, 163)');
     $('#contactUsFooter').css('text-decoration', 'underline');
   });
 $('#contactUsFooter').mouseout(function(){
-  $("#contactUsFooter").css('font-size', '1em');
+  $("#contactUsFooter").css('color', 'white');
   $('#contactUsFooter').css('text-decoration', 'none');
 });
 
@@ -157,11 +173,11 @@ $('#thanksFooter').on('click', function(){
   window.open('../thanksPage/thanks.html', '_self');
 });
 $('#thanksFooter').mouseover(function(){
-    $("#thanksFooter").css('font-size', '1.05em');
+    $("#thanksFooter").css('color', 'rgb(255, 230, 163)');
     $('#thanksFooter').css('text-decoration', 'underline');
   });
 $('#thanksFooter').mouseout(function(){
-  $("#thanksFooter").css('font-size', '1em');
+  $("#thanksFooter").css('color', 'white');
   $('#thanksFooter').css('text-decoration', 'none');
 });
 
@@ -170,11 +186,11 @@ $('#facebook').on('click', function(){
   window.open('http://www.facebook.com', '_blank');
 });
 $('#facebook').mouseover(function(){
-    $("#facebook").css('font-size', '1.05em');
+    $("#facebook").css('color', 'rgb(255, 230, 163)');
     $('#facebook').css('text-decoration', 'underline');
   });
 $('#facebook').mouseout(function(){
-  $("#facebook").css('font-size', '1em');
+  $("#facebook").css('color', 'white');
   $('#facebook').css('text-decoration', 'none');
 });
 
@@ -183,11 +199,11 @@ $('#twitter').on('click', function(){
   window.open('http://www.twitter.com', '_blank');
 });
 $('#twitter').mouseover(function(){
-    $("#twitter").css('font-size', '1.05em');
+    $("#twitter").css('color', 'rgb(255, 230, 163)');
     $('#twitter').css('text-decoration', 'underline');
   });
 $('#twitter').mouseout(function(){
-  $("#twitter").css('font-size', '1em');
+  $("#twitter").css('color', 'white');
   $('#twitter').css('text-decoration', 'none');
 });
 
@@ -196,10 +212,41 @@ $('#soundcloud').on('click', function(){
   window.open('http://www.soundcloud.com', '_blank');
 });
 $('#soundcloud').mouseover(function(){
-    $("#soundcloud").css('font-size', '1.05em');
+    $("#soundcloud").css('color', 'rgb(255, 230, 163)');
     $('#soundcloud').css('text-decoration', 'underline');
   });
 $('#soundcloud').mouseout(function(){
-  $("#soundcloud").css('font-size', '1em');
+  $("#soundcloud").css('color', 'white');
   $('#soundcloud').css('text-decoration', 'none');
 });
+
+var timeOut = function(){
+  $("aside").css('z-index', '-1');
+  hidden = true;
+};
+
+var hidden = false;
+    $('#logo').click(function(){
+      if(hidden === false){
+          $("aside").animate({'opacity': 0});
+          window.setTimeout(timeOut, 500);
+
+      }
+      else if(hidden !== false){
+        $("aside").css('z-index', '1');
+        $("aside").animate({'opacity': 1});
+        hidden = false;
+      }
+  });
+
+$(window).scroll(function(){
+    $("aside").css("opacity", 1 - $(window).scrollTop() / 100);
+      if(hidden === false){
+        if((1 - $(window).scrollTop() / 100) < -0.040000000000000036){
+           $("aside").css('z-index', '-1');
+        }
+        else{
+          $("aside").css('z-index', '1');
+        }
+      }
+  });

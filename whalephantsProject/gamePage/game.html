@@ -6,15 +6,17 @@
   <link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="about.css">
+  <link rel="stylesheet" type="text/css" href="game.css">
 </head>
       <body>
-      <header>
-      <img src="../structure/homeImages/logo.jpg" id = 'logo'>
+      <header class='width'>
       <h1>Whalephants</h1>
       </header>
-      <section>
-            <aside>
+
+      <section class='width'>
+          <div id='bar'>
+              <img src="../structure/homeImages/logo.jpg" id = 'logo' class='fade'>
+              <aside>
                 <ul>
                   <li class= 'nav' id ='home'>Home</li>
                   <li class= 'nav' id = 'aboutUs'>About</li>
@@ -22,17 +24,25 @@
                   <li class= 'nav' id = 'countDown'>Count Down</li>
                   <li class= 'nav' id ='contactUs'>Contact Us</li>
                   <li class= 'nav' id ='game'>Hang Man</li>
+                  <li class= 'nav' id ='thankYou'>Thank You</li>
                 </ul>
-            </aside>
+              </aside>
+          </div>
             <article>
-
-
-
-
-
+                <img id= 'hangImg'>
+                <p id='hint'></p>
+                <div id='textBox'></div>
+                <div id='inputs'>
+                <input class ='letter' id='guess1'>
+                <input class ='letter' id='guess2'>
+                <input class ='letter' id='guess3'>
+                <p id='gal'>Guess a letter!!</p>
+                </div>
+                <p2><u>Wrong Letters</u></p2>
+                <p id='usedLetters'></p>
             </article>
       </section>
-      <footer>
+      <footer class='width'>
           <div id='footerBar'>
               <div class ='footerNav'>
                 <ul class = 'bottomList'>
@@ -64,5 +74,6 @@
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js'></script>
 <script src="../structure/homepage.js"></script>
+<script src="./game.js"></script>
 </body>
 </html>

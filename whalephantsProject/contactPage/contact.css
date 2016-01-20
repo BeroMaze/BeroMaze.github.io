@@ -1,0 +1,293 @@
+/*Form Styling*/
+.contactSect {
+	    display: -webkit-flex;
+	    flex-direction: row;
+    	-webkit-justify-content: flex-start;
+    	display: flex;
+	    -webkit-flex-direction: row;
+    	justify-content: flex-start;
+    	/*box-shadow: 10px 0 15px #888888;*/
+/*    	overflow: hidden;*/
+}
+
+.contactDiv {
+	   display: -webkit-flex;
+	   flex-direction: column;
+	   display: flex;
+	   -webkit-flex-direction: column;
+	   justify-content: flex-start;
+	   -webkit-justify-content: flex-start;
+    	/*box-shadow: 10px 0 15px #888888;
+			/*width: 100%;*/
+}
+
+#newBorder{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction:row;
+	justify-content:space-between;
+	-webkit-flex-direction:row;
+	-webkit-justify-content:space-between;
+	width: 95%;
+	/*border: solid;*/
+	/*border-color: red;*/
+	margin-bottom: 20px;
+}
+
+.formArti {
+	display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  -webkit-justify-content: flex-start;
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+  font-family: 'Gochi Hand', cursive;
+  /*border: solid;*/
+  width: 95%;
+/*  overflow-y: scroll;*/
+  align-items:center;
+  -webkit-align-items:center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	width: 40%;
+}
+
+input {
+	width: 200px;
+}
+
+label {
+	color: white;
+	font-size: 1.25em;
+	width: auto;
+	margin-top: 10px;
+	align-self: flex-start;
+	-webkit-align-self: flex-start;
+}
+
+textarea {
+	width: 300px;
+}
+
+.submitButton {
+	width: 50px;
+	margin-top: 10px;
+	align-self: flex-start;
+	-webkit-align-self: flex-start;
+	font-family: 'Gochi Hand', cursive;
+}
+
+.divInner {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-align-self: flex-start;
+	align-self: flex-start;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	margin-left: 20px;
+	width: 60%;
+/*	border: solid;*/
+}
+
+.responseP {
+	font-size: 1.25em;
+	color: white;
+}
+
+.messageInstruct {
+	color: white;
+	font-size: 1.25em;
+	width: 80%;
+	align-self: flex-start;
+	-webkit-align-self: flex-start;
+	text-align: left;
+}
+
+h3 {
+	font-size: 1.25em;
+	margin: 0px;
+}
+span {
+	color: red;
+}
+
+.validateP {
+	font-size: 1.25em;
+	color: yellow;
+	text-decoration: underline;
+	text-align: left;
+}
+
+#form{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	width: 90%;
+	height: 250px;
+	border-top: solid white;
+	border-bottom: solid white;
+	border-radius: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	overflow-y: auto;
+}
+
+/*#userComment{
+	display: flex;
+	display: -wbkit-flex;
+	direction: column;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-webkit-align-items: flex-start;
+	width: 230px;
+	/*height: 90%;*/
+/*	padding: 0;*/
+/*}*/
+
+#name{
+ 	width: 150px;
+ 	height: 30px;
+ 	margin-right: 10px;
+ 	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#userInput{
+	width: 150px;
+	height: 100px;
+	resize: none;
+  overflow: auto;
+  margin-right: 10px;
+  margin-top: 0;
+	margin-bottom: 0;
+}
+
+#commentButton{
+	margin-bottom: 15px;
+	width: 65px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	align-self: flex-start;
+	-webkit-align-self: flex-start;
+	font-family: 'Gochi Hand', cursive;
+}
+
+#commentsMade{
+	display: flex;
+	flex-direction: column;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	/*justify-content: flex-start;
+	flex-wrap:wrap;*/
+	border: solid white;
+	width: 90%;
+	height: 80%;
+	margin-left: 10px;
+	border-radius: 20px;
+	color: white;
+	padding: 5px;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 1.25em;
+	text-align: left;
+	overflow-y: auto;
+}
+#CommentTitle{
+	font-size: 2em;
+	margin-top: 0px;
+	border-bottom: solid white;
+	width: 100%;
+	border-radius: 0 0 5px 5px;
+
+}
+
+#formButt {
+	display: flex;
+	flex-direction: column;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	justify-content: flex-start;
+	width:30%;
+}
+
+.commentLabel {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*border: solid white;*/
+}
+
+/*CAMP RATING*/
+.rateTitle {
+	color: white;
+	font-size: 2em;
+	margin-top: 10px;
+}
+
+.ratings {
+	/*margin-right: 200px;*/
+
+/*	border: solid;*/
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content:center;
+}
+
+.rateHearts {
+	display: flex;
+	flex-direction: row;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	width: 200px;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+}
+
+.hearts {
+	border:solid white;
+}
+
+#ratingsimage{
+	height: 300px;
+	width: 300px;
+	border: solid white;
+	border-width: 2px 2px 15px 2px;
+}
+
+#rateDiv{
+	align-self:center;
+	-webkit-align-self:center;
+}
+
+iframe{
+	margin-right: 5px;
+}
+
+p3{
+	color: white;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 1.5em;
+}
+
+.reqText {
+	color: yellow;
+}
+
+.usercomment{
+	margin: 10px;
+}
