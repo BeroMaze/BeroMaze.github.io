@@ -103,6 +103,10 @@
     border-bottom: 15px solid black;
   }
 
+    #coreyImg{
+    height: auto;
+  }
+
   .middleCenter{
     width: 100%;
     height: auto;
