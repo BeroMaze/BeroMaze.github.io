@@ -1,0 +1,247 @@
+@media (min-width: 480px) and (max-width: 800px){
+  #mainMiddle {
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+
+  }
+    body{
+      width: 100%;
+      height: 100%;
+  }
+  header{
+    border-radius: 0;
+    margin-top: 0;
+  }
+  footer{
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  .middleLeft{
+    width: 100%;
+    height: auto;
+    font-size: 1.5em;
+    border-top: 15px solid black;
+    border-bottom: 15px solid black;
+  }
+
+  .middleCenter{
+    width: 100%;
+    height: auto;
+    border-bottom: 15px solid black;
+    margin-top: 100px;
+    margin-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .overFlow{
+    flex-direction: column;
+    overflow-y: hidden;
+    margin-bottom: 0;
+  }
+
+  .middleRight{
+    width: 100%;
+    height: auto;
+    border-bottom: 15px solid black;
+    /*border: solid red;*/
+    font-size: 1.5em;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  #mainBottom{
+    width: 100%;
+    height: auto;
+    /*border-bottom: 15px solid black;*/
+    font-size: 1.5em;
+  }
+
+
+}
+
+@media (max-width: 480px){
+  body{
+    width: 100%;
+    height: 100%;
+  }
+  header{
+    /*display: none;*/
+    height: 100px;
+    border-radius: 0;
+    margin-top: 0;
+  }
+
+  nav{
+    width: 98%;
+    height:150px;
+  }
+
+  #mainTop{
+    width: 100%;
+    height: 110px;
+    margin-bottom: 10px;
+  }
+
+  #mainMiddle {
+    flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  .middleLeft{
+    width: 100%;
+    height: auto;
+    font-size: 1.5em;
+    border-top: 15px solid black;
+    border-bottom: 15px solid black;
+  }
+
+  .middleCenter{
+    width: 100%;
+    height: auto;
+    border-bottom: 15px solid black;
+    margin-top: 100px;
+    margin-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .overFlow{
+    flex-direction: column;
+    overflow-y: hidden;
+    margin-bottom: 0;
+  }
+
+  .middleRight{
+    width: 100%;
+    height: auto;
+    border-bottom: 15px solid black;
+    /*border: solid red;*/
+    font-size: 1.5em;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  #mainBottom{
+    width: 100%;
+    height: auto;
+    /*border-bottom: 15px solid black;*/
+    font-size: 1.5em;
+  }
+
+  footer{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  #created{
+    margin-bottom: 0;
+    height: 50px;
+  }
+
+  #socialBall{
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  #socialBar {
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    align-items: flex-start;
+  }
+
+  .expand {
+    overflow-x: visible;
+  }
+
+  .BottomIcons {
+    margin-top: 5px;
+  }
+
+  #mediaStack {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    width: 180px;
+    padding: 0;
+  }
+
+  #mainView {
+    height: auto;
+    width: 100%;
+    border: none;
+  }
+
+  #iconView {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  select{
+    width: 90%;
+    height: 50px;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .articles {
+    width: 600px;
+    height: 800px;
+  }
+  .projectIcon{
+    width: 400px;
+    height: 500px;
+  }
+  .descIcon{
+    font-size: 1.5em;
+  }
+  #projectTitle{
+    font-size: 3em;
+  }
+
+  #projectDesc{
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, .6);
+  }
+  p{
+    font-size: 2em;
+  }
+  .iconTilte{
+    font-size: 3.5em;
+  }
+
+  a{
+    font-size: 2em;
+  }
+  .descIcon{
+    font-size: 2em;
+  }
+  .fullViewImg{
+    margin-top: 50px;
+    width: 625px;
+    height: 750px;
+  }
+  .fullViewDesc{
+    margin: 0 10px;
+    margin-top: 50px;
+    font-size: 3em;
+  }
+  .created{
+    font-size: 3em;
+    margin-top: 50px;
+  }
+  .FullViewTitle{
+    font-size: 3.5em;
+}

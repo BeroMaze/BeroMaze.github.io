@@ -1,0 +1,99 @@
+body{
+  margin: 0 auto;
+  width: 97%;
+  height: auto;
+  min-height: 800px;
+  min-width: 660px;
+}
+header {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  border: solid;
+  border-bottom: none;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: center;
+  display: -moz-flex;
+  -moz-flex-direction: row;
+  -moz-justify-content: center;
+  background-image: url('./img/lake.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 7px;
+}
+
+h1{
+  font-size: 4em;
+  align-self: center;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+main{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  -webkit-flex-direction: column;
+  -moz-align-items: center;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-height: 800px;
+  border: solid;
+  background-color: rgb(22, 1, 64);
+}
+nav{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  width: 600px;
+  height:100px;
+  border: solid;
+  border-top: none;
+  align-items: center;
+  border-radius: 0 0 70px 70px;
+  background-color: rgba(16, 51, 111, 0.95);
+}
+
+footer{
+  width: 100%;
+  height: 110px;
+  border: solid;
+  border-radius: 0 0 20px 20px;
+  border-top: none;
+  margin-bottom: 20px;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  -webkit-flex-direction: row;
+  -moz-align-items: center;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  background-color: green;
+}
+
+.overFlow{
+  flex-direction: column;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+
+.mainWords{
+  font-size: 1.7em;
+  margin: 30px;
+}
