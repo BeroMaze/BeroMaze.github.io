@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Top Doughnuts</title>
+  <link rel="stylesheet" type="text/css" href="donut.css">
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src ='cheet.js'></script>
+</head>
+
+<body>
+    <header>
+        <aside = id ="headerLeft" class =''>
+        <p = id ='info'></p>
+            <img src="https://pbs.twimg.com/profile_images/437618776452759552/MnADNZ8h.jpeg" id = 'topImgLeft' width="150px" height = "150px">
+        </aside>
+        <aside = id = "headerMidle" class =''>
+            <img src="http://www.washington.edu/alumni/columns/dec14/images/toppot.jpg" id = 'topImgMid' width="350px" height="180px">
+            <h1 id = 'tableHead'>Top Pot Donuts Table</h1>
+        </aside>
+
+        <aside id = 'headerRight' class =''>
+            <img src="https://pbs.twimg.com/profile_images/437618776452759552/MnADNZ8h.jpeg" id = 'topImgRight' width="150px" height = "150px">
+        </aside>
+    </header>
+
+    <section>
+        <!-- <aside id ='asideLeft'>
+
+        </aside> -->
+
+        <article>
+            <table id = 'table'>
+                <tr>
+                    <th>Location</th>
+                    <th>7:00am</th>
+                    <th>8:00am</th>
+                    <th>9:00am</th>
+                    <th>10:00am</th>
+                    <th>11:00am</th>
+                    <th>12:00am</th>
+                    <th>1:00pm</th>
+                    <th>2:00pm</th>
+                    <th>3:00pm</th>
+                    <th>4:00pm</th>
+                    <th>5:00pm</th>
+                    <th>6:00pm</th>
+                    <th>Total Customers</th>
+                    <th>Total Donuts</th>
+                </tr>
+            </table>
+
+                <p1 id = 'tableDescription'>This table shows the amount of donuts that will be
+                bought per hour.</p1> <br /> <br />
+            <div id = 'charts'>
+            <canvas id="myChart" width="700" height="400"></canvas>
+            <canvas id="myChart2" width="200" height="200"></canvas> <br/>
+            </div>
+            </div> <br />
+
+                <p2 class = 'infoEntry'> Please Enter A New Stores Info Here:</p2> <br />
+                <input type="text" placeholder="New Store Name" id="newStore">
+                <input type="text" placeholder="Store Min Customers" id="newMin">
+                <input type="text" placeholder="Store Max Customers" id="newMax">
+                <input type="text" placeholder="Store Average Donuts" id="newAve">
+                <button id = 'newSubmit'>Submit New Store</button> <br />
+                <br/>
+                <!-- update an existing location -->
+                <p2 class = 'infoEntry'> Please Enter Updated info:</p2> <br />
+                <select type="text" placeholder="Store Name" id="updateStore">
+                <option id = 'option'></option>
+                </select>
+                <input type="text" placeholder="Store Min Customers" id="updateMin">
+                <input type="text" placeholder="Store Max Customers" id="updateMax">
+                <input type="text" placeholder="Store Average Donuts" id="updateAve">
+                <button id = 'updateSubmit'>Update Store</button><br/>
+        </article>
+
+        <aside id ='asideRight'>
+                <br/>
+                <img src="http://s3-media2.fl.yelpcdn.com/bphoto/xJBxZcvDnJY5DvvV5TsVxQ/ls.jpg" class = 'donutPic' height="100px">
+                <br/>
+                <br/>
+                <img src="http://assets3.thrillist.com/v1/image/1021869/size/tl-horizontal_main/top-pot-doughnuts" class = 'donutPic' height="100px">
+                <br/>
+                <br/>
+                <img src="http://www.toppotdoughnuts.com/_source/img/map3.jpg" height="100px" class = 'donutPic'>
+                <br/>
+                <br/>
+                <img src="http://img1.10bestmedia.com/Images/Photos/216230/top-pot_54_990x660_201406010024.jpg" height="100px" class = 'donutPic'>
+                <br/>
+                <br/>
+                <img src="http://assets3.thrillist.com/v1/image/1403924/size/tl-horizontal_main/the-6-best-donut-shops-in-seattle" class = 'donutPic' height="100px">
+                <br/>
+                <br/>
+                <img src="http://allaroundtim.com/wp-content/uploads/2012/11/top-pot-doughnuts-coffee.jpg" height="100px" class = 'donutPic'>
+                <br/>
+                <br/>
+                <img src="http://www.toppotdoughnuts.com/_source/img/slides/png/004.png" class = 'donutPic' height="100px">
+                <br/>
+                <br/>
+        </aside>
+
+    </section>
+
+        <footer>
+            Thank you to Top Pot Donuts for Making Great Donuts
+        </footer>
+        <div class ='hidden' id = 'blackout'></div>
+        <script src = 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js'></script>
+        <script src ="donut.js"></script>
+</body>
+</html>

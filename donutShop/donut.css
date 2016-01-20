@@ -1,0 +1,239 @@
+
+body {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    width: 90%;
+    text-align: center;
+    background-color: black;
+    margin: 0 auto;
+    vertical-align: center;
+}
+.rollin {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    /*border: solid;*/
+    width: 50%;
+    margin: 0 20px;
+    -moz-transition:4s all ease;
+    -webkit-transition:4s all ease;
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    }
+
+section {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+    background-color: rgb(160, 190, 200);
+    max-width: 1120px;
+}
+
+header {
+  /*border: solid;*/
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: center;
+    background-color: rgb(160, 190, 200);
+    border-bottom: solid;
+    border-top: solid;
+    max-width: 1120px;
+}
+
+#charts {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: center;
+}
+
+canvas {
+  margin-right: 30px;
+}
+
+#headerLeft {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: flex-end;
+    /*border: solid;*/
+    -webkit-align-items: flex-end;
+}
+
+#headerMidle {
+  display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    /*border: solid;*/
+    width: 50%;
+    margin: 0 20px;
+}
+
+#topImgMid{
+  position: relative;
+  top: 20px;
+}
+
+#headerRight {
+  display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: flex-end;
+    -webkit-align-items: flex-end;
+    /*border: solid;*/
+
+}
+
+/*#asideLeft {
+  border: solid;
+  width: 80px;
+}*/
+
+article {
+  /*border: solid;*/
+
+}
+
+#asideRight {
+  /*border: solid;*/
+  width: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    text-align: center;
+    height: 70px;
+    border-bottom: solid white;
+    border-left: solid white;
+    border-right: solid white;
+    color: white;
+    max-width: 1114px;
+
+}
+
+#tableHead {
+  font-size: 3em;
+  border-bottom: solid;
+  max-width: 100%;
+  border-width: 10px;
+  font-family: 'Indie Flower', cursive;
+  color: rgba(119, 86, 50, 0.9);
+  border-top: solid;
+}
+
+#table {
+  max-width:90%;
+  border: 1px solid;
+  text-align: center;
+  margin: 30px 0 0 20px;
+}
+
+ table, td, tr, th {
+  max-width: 80%;
+  border: 1px  solid;
+  border-collapse: collapse;
+  font-size: .95em;
+  background-color: rgba(0, 200, 150, .2);
+  color: black;
+  border-color: white;
+}
+
+td, tr, th {
+  padding: 7px;
+}
+
+#storeStyle {
+  font-weight: bold;
+  color: rgba(65, 248, 99, 0.9);
+}
+
+#customerStyle {
+  color: rgba(119, 86, 171, 0.9);
+  font-weight: bold;
+}
+
+#donutStyle {
+  color: rgba(119, 51, 255, 0.9);
+  font-weight: bold;
+}
+
+#tableDescription {
+  padding: 4px;
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.infoEntry {
+  font-family: 'Lobster', cursive;
+}
+
+#info {
+  width: 200px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 40px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: rgba(200, 20, 20, .5);
+  font-size: .95em;
+
+}
+
+
+.donutPic {
+  max-width: 80%;
+}
+
+input {
+  font-family: 'Rock Salt', cursive;
+  font-size: .2em;
+  text-align: center;
+  max-width: 95%;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: rgba(135, 21, 187, 0.3);
+  color: white;
+}
+
+p2 {
+  font-size: 1.3em;
+}
+
+/*.visible {
+  width: 1000px;
+  height: 300px;
+  background-color: rgb(160, 190, 200);
+  position: relative;
+  z-index: 1;
+  top: -965px;
+  left: 10px;
+}*/
+
+.hidden {
+  width: 1000px;
+  height: 0px;
+  background-color: rgb(160, 190, 200);
+  position: relative;
+  z-index: -2;
+  top: -965px;
+  left: 10px;
+}
+.visible {
+  width: 1100px;
+  height: 870px;
+  background-color: rgb(160, 190, 200);
+  position: relative;
+  z-index: 1;
+  top: -965px;
+  left: 10px;
+}
+
