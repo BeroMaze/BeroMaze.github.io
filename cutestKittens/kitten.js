@@ -2,11 +2,11 @@ chooseOne(); // runs the first kitten image choose
 chooseTwo(); // runs the second kitten image choose
 var localKittenInfo; // var for storing local info
 var localData = localStorage.getItem('localKittenCorral'); // retreaving local information
-var kittenCorralLocal = JSON.parse(localData); // moving string info to object
+// var kittenCorralLocal = JSON.parse(localData); // moving string info to object
               // console.log(kittenCorralLocal);
 
 
-kittenCorralLocal.forEach(function(k, w){
+kittenCorral.forEach(function(k, w){
      kittenCorral[w].count = k.count + kittenCorral[w].count;
 });
 
