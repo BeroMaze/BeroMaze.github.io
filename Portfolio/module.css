@@ -161,3 +161,32 @@ a{
   font-style: italic;
   font-family: 'Fredericka the Great', cursive;
 }
+.code{
+  width: 700px;
+  height: 800px;
+  background-color: white;
+  font-size: 2em;
+  color: black;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  text-align: left;
+}
+#topCode{
+  width: auto;
+  height: 5%;
+  border: solid black;
+  margin: 0;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+}
+#bottomCode{
+  font-size: .7em;
+  height: 95%;
+  width: 100%;
+  /*background-color: black;*/
+  overflow-x: hidden;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  text-align: left;
+}

@@ -22,6 +22,7 @@ header {
   -moz-flex-direction: row;
   -moz-justify-content: center;
   background-image: url('./img/lake.jpg');
+  /*background-color: black;*/
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 7px;
@@ -48,6 +49,7 @@ main{
   min-height: 800px;
   border: solid;
   background-color: rgb(22, 1, 64);
+
 }
 nav{
   display: flex;

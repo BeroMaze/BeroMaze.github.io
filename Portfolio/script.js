@@ -127,7 +127,7 @@ projects.map(function(count, index){
 });
 
 var iconsToPage = function(){
-  $('#iconView').append('<script id="miniIconView" type="text/template"><article id="{{id}}" class="articles" value="{{catagory}}" ><img class="projectIcon" src="{{img}}" /><h3 class="iconTilte">{{title}}</h3><p class="publishedOn">Created:  {{{publishedOn}}}</p><p class="descIcon">{{miniDesc}}</p><a href="{{link}} class="descIcon">See Finished site.</a></article></script>');
+  $('#iconView').append('<script id="miniIconView" type="text/template"><article id="{{id}}" class="articles" value="{{catagory}}" ><img class="projectIcon" src="{{img}}" /><h3 class="iconTilte">{{title}}</h3><p class="publishedOn">Published {{{publishedOn}}} days ago</p><p class="descIcon">{{miniDesc}}</p><a href="{{link}}" class="descIcon">See Finished site.</a></article></script>');
   var template = $('#miniIconView').html();
   var compiledTemplate = Handlebars.compile(template);
   projects.forEach(function(all){
@@ -141,16 +141,51 @@ var pickArticles = function(){
     $pick = this.id;
     $('.articles').not('#'+$pick).css('opacity', '.3');
     setTimeout(function(){
-      $('#mainView').html('<script id="hello" type="text/template"><h1 class="FullViewTitle">{{title}}</h1><a href="{{link}}" class="fullViewLink">Check Out The Site!</a><img src="{{img}}" class="fullViewImg"/><p3 class="fullViewDesc"> {{description}} </p3><p4 class="created">Created on: {{publishedOn}} </p4></script>');
+      $('#mainView').html('<script id="hello" type="text/template"><h1 class="FullViewTitle">{{title}}</h1><a href="{{link}}" class="fullViewLink">Check Out The Site!</a><div id="flip"><img src="{{img}}" id="{{id}}" class="fullViewImg"/><div class="code"></div></div><p3 class="fullViewDesc"> {{description}} </p3><p4 class="created">Published {{publishedOn}} days ago</p4></script>');
       $('main').css({
         'background-image': 'none',
         'background-color': 'rgb(54, 14, 64)',
       });
-      var appTemplate = $('#hello').html();
-      var compiledTemplate = Handlebars.compile(appTemplate);
+      var template = $('#hello').html();
+      var compiledTemplate = Handlebars.compile(template);
       var html = compiledTemplate(projects[$pick]);
       $('#mainView').append(html);
+      $('.code').hide();
+      showCode();
     }, 300);
+  });
+};
+var showCode = function(){
+  $('.fullViewImg').on('click', function() {
+    event.preventDefault();
+    $(this).hide();
+    $pickId = $(this).attr('id');
+    console.log($pickId);
+    $('.code').show();
+    // $('.code').html('<div id="topCode"><button id="javascript">JavaScript</button><button id="css">CSS</button><button id="html">HTML</button></div><div id="bottomCode"></div>');
+    $('.code').html('<div><pre><code class="javascript">' + jsCodeArray[$pickId].code.toString() + '</code></pre></div>');
+    $(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });
+    showPic();
+    $('#javascript').on('click', function() {
+      event.preventDefault();
+    });
+    $('#css').on('click', function() {
+      event.preventDefault();
+    });
+    $('#html').on('click', function() {
+      event.preventDefault();
+    });
+  });
+};
+var showPic = function(){
+  $('.code').on('click', function() {
+    event.preventDefault();
+    $('.code').hide();
+    $('.fullViewImg').show();
   });
 };
 
