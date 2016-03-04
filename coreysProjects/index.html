@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.min.js" charset="utf-8"></script>
+    <script id='articleTemplate' type='text/template'>
+      <article id="{{{id}}}" class="eachArticle">
+        <h3 class="eachTitle slideInLeft animated"><u>{{{title}}}</u></h3>
+        <p class="eachDate slideInRight animated">published On: {{{publishedOn}}}</p>
+        <div class="swiper eachImg rotateIn animated">
+          <div class="swiper-container gallery-top rotateIn animated">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url({{{img1}}})"></div>
+            <div class="swiper-slide" style="background-image:url({{{img2}}})"></div>
+            <div class="swiper-slide" style="background-image:url({{{img3}}})"></div>
+            <div class="swiper-slide" style="background-image:url({{{img4}}})"></div>
+            <div class="swiper-slide" style="background-image:url({{{img5}}})"></div>
+            <div class="swiper-slide" style="background-image:url({{{img6}}})"></div>
+            <div class="swiper-slide" style="background-image:url({{{img7}}})"></div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+    </div>
+        </div>
+        <p class="eachDisc slideInLeft animated">{{{desc}}}</p>
+        <a class="eachLink slideInRight animated" href="{{{link}}}" target="_blank">Head over to the {{{title}}} Site</a>
+      </article>
+    </script>
+    <title>Corey's Project</title>
+    <link href='https://fonts.googleapis.com/css?family=Hammersmith+One|Marcellus|Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./vender/swiper.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./vender/swiper.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/animated.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/base.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/media.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div id="backBody">
+      <header>
+        <h1 id='title'>Corey's Projects</h1>
+        <nav>
+          <ul class='lists'>
+            <li id='home'>Home</li>
+            <li id='aboutButton'>About</li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <img id="arrow" src="./img/arrow.png">
+        <h2 id='projects'>Projects</h2>
+        <ul id='projectList' class="lists">
+          <li id="happyHour">Happy Hour</li>
+          <li id="curvedPortfolio">Curved Portfolio</li>
+          <li id="whalephants">Whalephants</li>
+          <li id="kittenVoting">Kitten Voting</li>
+          <li id="topPot">Top Pot Donut</li>
+        </ul>
+        <div id="results">
+
+        </div>
+        <div id="about" class="fadeInUp fadeInDown animated">
+          <p id="goal">My goal in the work place is to be part of a team that produces the most innovative product possible. I want to develop my potential as an outstanding programmer.  While creating a new website or application I focus on the user’s experience to make sure that the site or app is interactive and helpful.</p>
+          <div id="links">
+            <img id='github' class='icons' src="./img/github.png"/>
+            <img id='resume' class='icons' src="./img/resume.png" alt="" />
+            <img id='linkedIn' class='icons' src="./img/linkedIn.ico" alt="" />
+          </div>
+          <div id="thanks">
+            <h4>Thank You To:</h4>
+            <ul id='thankYouList'>
+              <li>Code Fellows - Big thanks all the very supportive people that helped shape my talents.</li>
+              <li>Family and Friends - For being supportive in all the adventures that I take.</li>
+                <li>Libraries:</li>
+                <ul>
+                  <li>SwiperJS - Awesome JS Library for picture Galleries.</li>
+                  <li>Animated.css - A great way to help really make your page interactive.</li>
+                  <li>Handlebars - Couldn't append with out you.</li>
+                </ul>
+            </ul>
+          </div>
+        </div>
+        <div id="resumeSheet" class="fadeInUp fadeInDown animated">
+          <h3>Corey Berning</h3>
+          <ul id='resumeList'>
+            <li>262-227-0574</li>
+            <li>berning.corey@gmail.com</li>
+            <li>Seattle, Wa</li>
+          </ul>
+          <h3 class='resumeTitles'>Programming Objective</h3>
+          <p class="resumeInfo">
+            My goal in the work place is to be part of a team that produces the best product possible. I want to develop my potential as an outstanding programmer.  While creating a new website or application I focus on the user’s experience to make sure that the site or app is interactive and helpful.
+          </p>
+          <h3 class='resumeTitles'>Education</h3>
+          <h4 class="resumeInfo">Web Design and Programing:</h4>
+          <ul>
+            <li class="resumeInfo">Code Fellows</li>
+            <ul>
+              <li class="resumeInfo">10/2015 – present </li>
+              <li class="resumeInfo">Major Studies:  Html, Html5, Css, Css3, Sass JavaScript, Git & GitHub, HandleBars, jQuery page.js, animate.css, webDB, SQL, express, sequelize</li>
+            </ul>
+          </ul>
+          <h4 class="resumeInfo">Engineering Design and Drafting Technology:</h4>
+          <ul>
+            <li class="resumeInfo">Salt Lake Community College</li>
+            <ul>
+              <li class="resumeInfo">2010 - 2012 </li>
+              <li class="resumeInfo">Major Studies:  Technical Drafting, Engineering Design, Aid Machining, 3D Modeling, Computer-aided Design, Outdoor Education</li>
+            </ul>
+          </ul>
+          <h4 class="resumeInfo">Out Door Studies and Education:</h4>
+          <ul>
+            <li class="resumeInfo">Colorado Mountain College </li>
+            <ul>
+              <li class="resumeInfo">2008 – 2010</li>
+              <li class="resumeInfo">Major Studies:  Wilderness Outdoor Responder, Emergency Care, Cabinetmaking, Architecture Wilderness and American Ethics</li>
+            </ul>
+          </ul>
+          <h4 class="resumeInfo">Arrowhead High School - Class of 2008</h4>
+          <h3 class='resumeTitles'>Work Experience</h3>
+          <h4 class="resumeInfo">Electronic Business Machines - Everett, WA</h4>
+          <ul>
+            <li class="resumeInfo">10/2014-8/2015</li>
+            <li class="resumeInfo">Full time delivering copiers. My responsibility was to guarantee each customer’s networking needs were set up correctly.</li>
+          </ul>
+          <h4 class="resumeInfo">CBRE – ADP - Seattle, WA</h4>
+          <ul>
+            <li class="resumeInfo">4/2014-9/2014</li>
+            <li class="resumeInfo">Full time Facilities Associate responsible for improving work environments within the company</li>
+          </ul>
+          <h4 class="resumeInfo">Radio Shack - Monroe, WA</h4>
+          <ul>
+            <li class="resumeInfo">11/2013-4/2014</li>
+            <li class="resumeInfo">Full Time Sale Associate helped to provide product information for customers buying decisions.</li>
+          </ul>
+          <h4 class="resumeInfo">Vinyl Raid Stickers and Printing - Olympic Valley, CA</h4>
+          <ul>
+            <li class="resumeInfo">11/2012- present</li>
+            <li class="resumeInfo">Proprietor of a printing company my goal was to create and print unique products for individuals and companies.</li>
+          </ul>
+        </div>
+      </main>
+    </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+   <script src="./scripts/db.js"></script>
+   <script src="./scripts/script.js"></script>
+   <!-- Swiper JS -->
+  <script src="./vender/swiper.min.js"></script>
+  </body>
+</html>
