@@ -24,7 +24,7 @@ var articles = [
       img5:                './img/portfolioKittenTop.png',
       img6:                './img/portfolioWhaleTop.png',
       img7:                './img/portfolioWhaleBottom.png',
-      link:               'http://beromaze.github.io/curvedPortfolio/',
+      link:               'http://beromaze.github.io/Portfolio/',
       desc:               ''
     },
     {
