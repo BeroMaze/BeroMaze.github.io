@@ -18,10 +18,12 @@ $('#aboutButton').on('click', function(event) {
   $('#about').addClass('fadeInUpBig animated');
   $('#about').show();
 });
+
 $('#projects').on('click', function(event) {
   $('#projects').addClass('flipOutX');
   setTimeout(function() {
     $('#projects').hide();
+    $('#about').hide();
     $('#projectList').addClass('fadeInDown animated');
     $('#projectList').show();
   }, 500);
@@ -109,7 +111,8 @@ $('.icons').on('click', function(event) {
     window.open('https://www.linkedin.com/in/coreyberning', '_blank');
   }
   else if (pickedId === 'resume') {
-    $('#resumeSheet').show();
-    $('#about').hide();
+    // $('#resumeSheet').show();
+    // $('#about').hide();
+    window.open('https://represent.io/cberning', '_blank');
   }
 });
