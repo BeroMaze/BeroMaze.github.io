@@ -25,7 +25,7 @@ var articles = [
       img6:                './img/portfolioWhaleTop.png',
       img7:                './img/portfolioWhaleBottom.png',
       link:               'http://beromaze.github.io/Portfolio/',
-      desc:               ''
+      desc:               'The Curved Portfolio is a colorfull creative take on my portfolio.'
     },
     {
       id:                 'whalephants',
