@@ -1,7 +1,7 @@
 var articles = [
     {
       id:                 'happyHour',
-      title:              'Seattle Happy Hour',
+      title:              'Seattle Happy Hour App',
       publishedOn:        'draft',
       img1:                './img/happyHourHome.png',
       img2:                './img/happyHourSearch.png',
@@ -10,7 +10,7 @@ var articles = [
       img5:                './img/happyHourLocation.png',
       img6:                './img/happyHourMapChoose.png',
       img7:                './img/happyHourServer.png',
-      link:               '',
+      link:               'http://happyhourapp.herokuapp.com',
       desc:               'Seattle Happy Hour is a mobile and desktop ready application to help people find happy hour specials in seattle. Using the Yelp and Google Api the user can search by; term, neighborhood, and more. The site uses the users location and search criteria to find the closest restaurant that has happy hour. By using different JS libraries the site was designed so that the user would be able to see the times of the happy hour and the locaions that have happy hour going on will be highlighted.'
     },
     {
